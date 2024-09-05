@@ -1,0 +1,63 @@
+/* Styles for the booking page */
+
+body {
+    background-color: #f4f7fa; /* Same light themed background */
+    font-family: Arial, sans-serif;
+}
+
+.header-section {
+    background-color: #516991ab;
+}
+
+.booking-section {
+    padding: 50px 0;
+}
+
+h2 {
+    color: #363b42;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #516991ab;
+    border-color: #98a2ad;
+}
+
+.btn-primary:hover {
+    background-color: #4d555d;
+    border-color: #0056b3;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #99a3ad;
+    box-shadow: none;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.modal-header .modal-title {
+    font-weight: bold;
+    color: #363b42;
+}

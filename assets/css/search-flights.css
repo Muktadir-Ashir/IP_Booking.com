@@ -1,0 +1,60 @@
+/* Styles for the search-flights page */
+
+body {
+    background-color: #f4f7fa; /* Light themed background color */
+    font-family: Arial, sans-serif;
+}
+
+.header-section {
+    background-color: #516991ab;
+}
+
+.search-section {
+    padding: 50px 0;
+}
+
+h2 {
+    color: #363b42;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #516991ab;
+    border-color: #98a2ad;
+}
+
+.btn-primary:hover {
+    background-color: #4d555d;
+    border-color: #0056b3;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #99a3ad;
+    box-shadow: none;
+}
+
+#results .card {
+    margin-top: 20px;
+}
+
+#results .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #363b42;
+}

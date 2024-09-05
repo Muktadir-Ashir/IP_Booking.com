@@ -1,0 +1,41 @@
+/* manage-passengers.css */
+
+/* Navbar customization */
+.navbar {
+    background-color: #516991ab;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f0ad4e !important;
+}
+
+/* Page content styling */
+h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+#passengerList .card {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+#passengerList .card-title {
+    font-weight: bold;
+    color: #516991;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+}

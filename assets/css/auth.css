@@ -1,0 +1,90 @@
+/* Styles for the register and login pages */
+
+.auth-section {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #363b42;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #516991ab;
+    border-color: #98a2ad;
+}
+
+.btn-primary:hover {
+    background-color: #4d555d;
+    border-color: #0056b3;
+}
+
+form .form-label {
+    font-weight: bold;
+}
+
+form .form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form .form-control:focus {
+    border-color: #99a3ad;
+    box-shadow: none;
+}
+
+p {
+    margin-top: 15px;
+}
+
+/* Navbar customization */
+.navbar {
+    background-color: #516991ab; /* Primary color background for the navbar */
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-section {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff !important; /* Ensure text is white by default */
+}
+
+
+/* Additional styling for the role select dropdown */
+form .form-control-select {
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #99a3ad;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+form .form-control-select:focus {
+    border-color: #99a3ad;
+    box-shadow: none;
+}

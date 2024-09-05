@@ -1,0 +1,143 @@
+/* Styles for the index page */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Background and header */
+.header-section {
+    position: relative;
+    top: 0; /* Ensure it starts at the top */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), 
+                url('https://plus.unsplash.com/premium_photo-1678727128546-154b1725c336?q=80&w=949&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the start (top) */
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header-content p {
+    font-size: 1.25rem;
+}
+
+/* Footer */
+.footer-section {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.footer-section h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.footer-section p {
+    font-size: 0.875rem;
+}
+
+.footer-section ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Offers Section */
+.offers-section {
+    background-color: #f0f0f0;
+}
+
+.offers-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Trending Destinations Section */
+.trending-destinations-section {
+    background-color: #e9ecef;
+}
+
+.trending-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.trending-subtext {
+    font-size: 1.25rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+.destination-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.destination-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.destination-card:hover img {
+    transform: scale(1.1);
+}
+
+.destination-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    text-align: center;
+}

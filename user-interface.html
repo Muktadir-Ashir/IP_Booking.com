@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Interface</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/user-interface.css">
+    
+</head>
+
+<body>
+    <header class="header-section">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="user-interface.html">Booking.com</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="flights.html">Flights</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="booking-history.html">My Bookings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="user-profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="logoutBtn" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="header-content text-center">
+            <h1>Explore the World with Us</h1>
+            <p>Book your flights and manage your trips easily.</p>
+        </div>
+    </header>
+    
+
+    <!-- Offers Section -->
+    <section class="offers-section py-5">
+        <div class="container">
+            <h2 class="text-center offers-header">Exclusive Offers Just for You</h2> <!-- Added header text -->
+            <div class="row">
+                <!-- Offer Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/images/offer1.jpg" class="card-img-top"
+                            alt="Discount on International Flights">
+                        <div class="card-body">
+                            <h5 class="card-title">Discount on International Flights</h5>
+                            <p class="card-text">Get up to 20% off on international flights to popular destinations
+                                around the world.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offer Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/images/offer2.jpg" class="card-img-top" alt="Family Travel Deals">
+                        <div class="card-body">
+                            <h5 class="card-title">Family Travel Deals</h5>
+                            <p class="card-text">Enjoy special discounts and offers for family trips with free seat
+                                selection and more.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offer Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/images/offer3.jpg" class="card-img-top" alt="Business Class Upgrades">
+                        <div class="card-body">
+                            <h5 class="card-title">Business Class Upgrades</h5>
+                            <p class="card-text">Upgrade to Business Class at a fraction of the cost. Experience luxury
+                                and comfort on your journey.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Destinations Section -->
+    <section class="trending-destinations-section py-5">
+        <div class="container">
+            <h2 class="text-center trending-header">Trending Destinations</h2>
+            <p class="text-center trending-subtext">Most popular choices for travellers from Bangladesh</p>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="destination-card">
+                            <img src="assets/images/toronto.jpg" class="card-img-top" alt="Toronto">
+                            <div class="destination-name">Toronto</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="destination-card">
+                            <img src="assets/images/bangkok.jpg" class="card-img-top" alt="Bangkok">
+                            <div class="destination-name">Bangkok</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="destination-card">
+                            <img src="assets/images/new-york.jpg" class="card-img-top" alt="New York">
+                            <div class="destination-name">New York</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="destination-card">
+                            <img src="assets/images/berlin.jpg" class="card-img-top" alt="Berlin">
+                            <div class="destination-name">Berlin</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="destination-card">
+                            <img src="assets/images/paris.jpg" class="card-img-top" alt="Paris">
+                            <div class="destination-name">Paris</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Column 1 -->
+                <div class="col-md-3">
+                    <h5>Booking.com</h5>
+                    <p>Your one-stop solution for booking flights and managing your trips. Explore the world with us!
+                    </p>
+                </div>
+
+                <!-- Footer Column 2 -->
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="flights.html">Flights</a></li>
+                        <li><a href="booking-history.html">My Bookings</a></li>
+                        <li><a href="user-profile.html">Profile</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Column 3 -->
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: support@booking.com</li>
+                        <li>Phone: +880 123 456 789</li>
+                        <li>Address: Dhaka, Bangladesh</li>
+                    </ul>
+                </div>
+
+                <!-- Footer Column 4 -->
+                <div class="col-md-3">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-3">
+            <p>&copy; 2024 Booking.com. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('logoutBtn').addEventListener('click', function () {
+            localStorage.removeItem('loggedInUser');
+            window.location.href = 'login.html';
+        });
+    </script>
+</body>
+
+</html>
